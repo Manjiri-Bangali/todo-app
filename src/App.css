@@ -1,4 +1,35 @@
-.App {
+/* .app{
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(178, 222, 252);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+} */
+.app header h1 {
+  font-size: 40px;
+  font-weight: 500;
+}
+main{
+  width:90%;
+  background: white;
+  padding: 2em;
+  margin-top:10px;
+  border-radius: 5px;;
+}
+
+@media all and (max-width: 480px) {
+  .app header h1 {
+    font-size: 30px;
+  }
+}
+
+
+
+
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +66,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */

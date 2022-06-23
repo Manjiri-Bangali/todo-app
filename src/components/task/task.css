@@ -1,0 +1,31 @@
+.task{
+    width: 100%;
+    background: #ffe400;
+    padding: 1em;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.task p.done{
+    text-decoration: overline;
+}
+.task p.notDone{
+    text-decoration: none;
+}
+.button-section{
+    /* position: absolute;
+    right: 10px;
+    bottom: 14px; */
+    display: flex;
+}
+.button-section .icon{
+    margin-left: 10px ;
+}
+
+@media all and (max-width: 480px) {
+    .task p{
+      font-size: 0.8em;
+    }
+  }
